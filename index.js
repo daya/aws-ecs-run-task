@@ -23,6 +23,8 @@ const main = async () => {
     }
   );
 
+  const launchType = JSON.parse(core.getInput('launch-type', { required: false }) || '["FARGATE"]');
+  
   const taskParams = {
     taskDefinition,
     cluster,
