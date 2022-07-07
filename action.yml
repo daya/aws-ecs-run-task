@@ -26,6 +26,10 @@ inputs:
     description: 'Assign public IP to the task. (ENABLED/DISABLED)'
     required: false
     default: 'ENABLED'
+  launch-type:
+    description: 'ECS launch type'
+    required: false
+    default: 'FARGATE'
 
 outputs:
   task-arn:
