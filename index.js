@@ -29,7 +29,7 @@ const main = async () => {
     taskDefinition,
     cluster,
     count: 1,
-    launchType,
+    launchType: launchType,
     networkConfiguration: {
       awsvpcConfiguration: {
         subnets,
