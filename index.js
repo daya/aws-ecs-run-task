@@ -27,7 +27,7 @@ const main = async () => {
     taskDefinition,
     cluster,
     count: 1,
-    launchType: "FARGATE",
+    launchType,
     networkConfiguration: {
       awsvpcConfiguration: {
         subnets,
